@@ -8,3 +8,5 @@ bn = 2/T*(int(1*sin(n*w0*t),t,0,T/2));
 
 An = symsum(an.*cos(n*w0*t),n,1,N);
 Bn = symsum(bn.*sin(n*w0*t),n,1,N);
+disp(An)
+disp(Bn)
